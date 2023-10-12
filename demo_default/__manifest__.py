@@ -26,7 +26,9 @@
     'author': 'Leonardo Bozzi, Ing.',
     'depends': [
         # Applicaciones del Cliente
-        
+        'website',
+        'base_ux',
+
         # Contabilidad
         
         # Localización
@@ -152,9 +154,13 @@
 
         # OCA
         # ==========================================================================================
+        'https://github.com/OCA/server-ux oca-server-ux',
+        'https://github.com/OCA/web oca-web',
+
         
         # ADHOC
         # ==========================================================================================
+        'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         
     ],
     'docker-images': [
