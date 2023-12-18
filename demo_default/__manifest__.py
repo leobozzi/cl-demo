@@ -77,7 +77,7 @@
         ],
     'assets': {
         'web.assets_backend':  [
-            '/bergese_default/static/src/js/user_menu.js',
+            '/demo_default/static/src/js/user_menu.js',
         ],
     },
     'test': [
