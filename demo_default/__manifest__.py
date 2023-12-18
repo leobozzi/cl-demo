@@ -26,17 +26,45 @@
     'author': 'Leonardo Bozzi, Ing.',
     'depends': [
         # Applicaciones del Cliente
+        'sale_management',
+        'purchase',
+        'stock',
+        'note',
+        'board',
+        'calendar',
         'website',
         'base_ux',
 
         # Contabilidad
+        'account',
+        'account_accountant',
+        'account_financial_report',
+        'account_journal_security',
+        'purchase_ux',
+        'sale_ux',
+        'product_currency',
+        #'account_balance_line',
+        'account_invoice_prices_update',
+        #'account_move_line_menu',
+        'account_usability',
+        'account_payment_term_extension',
 
         # Localización
         # All
+        'l10n_ar',
+        'l10n_ar_bank',
+        'l10n_ar_account_withholding',
+        'l10n_ar_sale',
+        #'l10n_ar_liquidaciones',
 
         # CE
 
         # EE
+        'l10n_ar_edi',
+        'l10n_ar_reports',
+        'l10n_ar_account_tax_settlement',
+        'l10n_ar_edi_ux',
+        'l10n_ar_currency_update',
 
         # Inventory
 
@@ -47,6 +75,11 @@
     ],
     'data': [
         ],
+    'assets': {
+        'web.assets_backend':  [
+            '/bergese_default/static/src/js/user_menu.js',
+        ],
+    },
     'test': [
     ],
     'installable': True,
